@@ -25,6 +25,8 @@
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                       <h6 class="dropdown-header">Device Roles</h6>
                       <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#" onclick="setBackgroundLayer('layer-background-1')">Layer 1 Background</a>
+                      <a class="dropdown-item" href="#" onclick="setBackgroundLayer('layer-background-2')">Layer 2 Background</a>
                       {% for device_role_slug, device_role_name, is_visible in device_roles %}
                           <div class="checkbox ml-1 my-1">
                               <label>
