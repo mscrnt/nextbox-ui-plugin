@@ -31,6 +31,16 @@ function layerSelectorOnChange(checkbox){
     }
 };
 
+function setBackgroundLayer(layerClass) {
+    var topologyContainer = document.getElementById('nx-ui-topology');
+
+    // Remove any existing background layer classes
+    topologyContainer.classList.remove('layer-background-1');
+    topologyContainer.classList.remove('layer-background-2');
+
+    // Add the selected background layer class
+    topologyContainer.classList.add('n-topology', layerClass);
+}
 
 function layerSelectorByTagOnChange(checkbox){
     showHideDevicesByTag(checkbox.value, checkbox.checked)
