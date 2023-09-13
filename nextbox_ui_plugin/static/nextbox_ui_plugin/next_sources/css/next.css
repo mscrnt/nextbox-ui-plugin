@@ -256,6 +256,15 @@
 .n-icon-acl:before{
     content:"\e605"
 }
+
+.n-topology.layer-background-1 {
+    background-image: url('/static/nextbox_ui_plugin/img/B6-F1.jpg');
+}
+
+.n-topology.layer-background-2 {
+    background-image: url('/static/nextbox_ui_plugin/img/B6-F2.jpg');
+}
+
 .n-topology.n-topology-blue{
     position:relative;
     overflow:hidden;
